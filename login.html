@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça o seu login</title>
+    <link rel="stylesheet" href="sec/login.css">
+    <link rel="stylesheet" href="arq/fontes.css">
+    <script defer src="script/login.js"></script>
+</head>
+<body>
+    <div class="c-1">
+        <h1>Selecione o tipo do login</h1>
+        <div class="opc">
+            <div id="adm_opc"><p>Administrador</p><img src="img/icones/administrador.png" height="40px"></div>
+            <div id="prof_opc"><p>Professor</p><img src="img/icones/professor.png" height="40px"></div>
+            <div id="aln_opc"><p>Aluno</p><img src="img/icones/aluno.png" height="40px"></div>
+        </div>
+    </div>
+    <div id="escuro"></div>
+    <form action="" method="post" id="adm_form">
+        <h1>LOGIN - ADMINISTRADOR</h1>
+        <div class="e-f"><input type="text" name="usuario_adm" class="user" placeholder="Usuário Administrador" required><span>*</span></div>
+        <div class="e-f"><input type="password" name="senha_adm" class="senha" placeholder="Sua senha" required><span>*</span></div>
+        <input type="submit" value="ENTRAR">
+        <div class="fechar" id="x_1">X</div>
+    </form>
+    <form action="" method="post" id="prof_form">
+        <h1>LOGIN - PROFESSOR(A)</h1>
+        <div class="e-f"><input type="text" name="usuario_prof" class="user" placeholder="Usuário Professor" required><span>*</span></div>
+        <div class="e-f"><input type="password" name="senha_prof" class="senha" placeholder="Sua senha" required><span>*</span></div>
+        <input type="submit" value="ENTRAR">
+        <div class="fechar" id="x_2">X</div>
+    </form>
+    <form action="" method="post" id="aln_form">
+        <h1>LOGIN - ALUNO(A)</h1>
+        <div class="e-f"><input type="text" name="usuario_aln" class="user" placeholder="Usuário Aluno" required><span>*</span></div>
+        <div class="e-f"><input type="password" name="senha_aln" class="senha" placeholder="Sua senha" required><span>*</span></div>
+        <input type="submit" value="ENTRAR">
+        <div class="fechar" id="x_3">X</div>
+    </form>
+    <section>
+        <button onclick="voltar()">Voltar</button>
+    </section>
+</body>
+</html>

@@ -1,0 +1,189 @@
+@media screen and (max-width: 1150px) {
+    section {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    section img {
+        height: 450px;
+    }
+
+    h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .bloco-txt {
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    section {
+        padding: 1.7rem;
+        gap: 70px;
+    }
+
+    #ad {
+        font-size: 19px;
+    }
+
+    .matricula {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    section {
+        padding: 1.5rem;
+        font-size: 21px;
+    }
+
+    h1 {
+        animation: none;
+        color: #00008f;
+        font-size: 40px;
+    }
+
+    #ad {
+        font-size: 16px;
+    }
+
+    .matricula {
+        font-size: 17px;
+        padding: 15px;
+    }
+
+    .a-z {
+        line-height: 21px;
+    }
+
+    .neg {
+        font-weight: bold;
+    }
+
+    .bloco-txt {
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .op-menu-pc {
+        display: none;
+    }
+
+    .burger {
+        display: flex;
+        flex-direction: column;
+        float: right;
+        gap: 5px;
+        cursor: pointer;
+        margin-bottom: 2px;
+    }
+
+    .lista {
+        background-color: #00008f;
+        width: 30px;
+        height: 3px;
+        border-radius: 40px;
+        border: 1px solid #00008f;
+    }
+
+    .menu-c {
+        display: flex;
+        flex-direction: row;
+        gap: 0;
+        align-items: center;
+        position: fixed;
+        top: 15px;
+        right: 0;
+        margin-right: 0px;
+    }
+
+    .u-menor {
+        display: none;
+    }
+
+    section {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        margin-top: 190px;
+        gap: 30px;
+    }
+
+    section img {
+        height: 100%;
+        width: 500px;
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 40px;
+    }
+
+    h1 {
+        font-size: 55px;
+        color: #000063;
+    }
+
+    #ad {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    section img {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    section {
+        padding: 0.3rem;
+        margin: 80px;
+        margin-top: 210px;
+        width: auto;
+    }
+
+    section img {
+        width: 300px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    #ad {
+        font-size: 19px;
+    }
+
+    .bloco-txt {
+        padding: 0;
+        justify-content: center;
+        margin: 20px;
+    }
+
+    header {
+        padding: 55px;
+    }
+
+    .logo {
+        height: 100px;
+        top: 5px;
+        left: 5px;
+    }
+
+    .menu-c {
+        top: 30px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    section {
+        margin: 50px;
+        margin-top: 190px;
+    }
+
+    #redes {
+        margin-bottom: 30px;
+    }
+}

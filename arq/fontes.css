@@ -1,0 +1,14 @@
+@font-face {
+    font-family: clássico;
+    src: url(century.ttf);
+}
+
+@font-face {
+    font-family: regular;
+    src: url(cairolight.ttf);
+}
+
+@font-face {
+    font-family: título;
+    src: url(titulo.ttf);
+}
