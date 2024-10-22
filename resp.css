@@ -189,7 +189,15 @@
 }
 
 @media screen and (max-width: 500px) {
+    section {
+        gap: 5px;
+    }
+
     section img {
         width: 250px;
+    }
+
+    h1 {
+        font-size: 30px;
     }
 }
